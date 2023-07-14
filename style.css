@@ -1,0 +1,142 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Styles for the header and navigation */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  /* Styles for the main content area */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the sign-up section */
+  #signup-section form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  #signup-section label {
+    font-weight: bold;
+  }
+  
+  #signup-section input[type="text"],
+  #signup-section input[type="email"],
+  #signup-section input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  #signup-section input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #signup-section input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the assessment section */
+  #assessment-section button {
+    padding: 12px 24px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #assessment-section button:hover {
+    background-color: #286090;
+  }
+  
+  /* Styles for the admin dashboard section */
+  #admin-dashboard-section form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  #admin-dashboard-section label {
+    font-weight: bold;
+  }
+  
+  #admin-dashboard-section input[type="text"],
+  #admin-dashboard-section input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  #admin-dashboard-section input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #admin-dashboard-section input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the footer */
+  footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
